@@ -1,0 +1,23 @@
+﻿class Hello{
+public String name;
+Hello(String name){
+this.name= name;
+}
+void sayHello(){
+System.out.println("Hello " + name);
+}
+}
+Hello h = new Hello("sujae");
+h.name;
+class Person{
+private float weight;
+public void setWeight(float w){
+this.weight = w;
+}
+public float getWeight(){
+return weight;
+}
+}
+Person sujae = new Person();
+sujae.setWeight(3)
+sujae.getWeight();
