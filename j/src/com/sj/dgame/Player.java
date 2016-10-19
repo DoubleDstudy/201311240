@@ -1,3 +1,4 @@
+package com.sj.dgame;
 
 public class Player {
 	private String name =null;

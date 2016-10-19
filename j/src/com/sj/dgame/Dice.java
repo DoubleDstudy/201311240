@@ -1,3 +1,4 @@
+package com.sj.dgame;
 
 public class Dice {
 	private int number = 0 ;
